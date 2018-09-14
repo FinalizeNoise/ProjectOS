@@ -1,6 +1,7 @@
 #include "Block.h"
 #include "cstdlib"
 #include <vector>
+#include "String"
 #pragma once
 class Sector
 {
@@ -12,6 +13,7 @@ public:
 	Sector();
 	void Sector::eraseSector();
 	void Sector::printToSector();
+	std::string getSectorBinary();
 	~Sector();
 };
 

@@ -1,4 +1,5 @@
 #include "iostream"
+#include "String"
 #pragma once
 
 #ifndef BLOCK_H
@@ -13,6 +14,7 @@ public:
 	void eraseBlock();
 	void printBlock();
 	void writeBlock();
+	std::string getBlockBinary();
 	~Block();
 };
 

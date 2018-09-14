@@ -23,6 +23,24 @@ void Clustor::eraseAllSectors() {
 	//}
 }
 
+std::string Clustor::getClustorBinary()
+{
+	std::string binaryString;
+	for (int i = 0; i < totalAmountOfSectors; i++) {
+		binaryString += sectorList[i].getSectorBinary();
+	}
+	return binaryString;
+}
+
+std::string Clustor::getNewBinary()
+{
+	return std::string();
+}
+
+void Clustor::loadClustor(std::string inputBinaryFile) {
+
+}
+
 Clustor::~Clustor()
 {
 }

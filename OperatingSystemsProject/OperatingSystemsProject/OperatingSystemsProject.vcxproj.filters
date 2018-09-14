@@ -21,16 +21,16 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="FileManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="Block.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Clustor.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Sector.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="CreateFile.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -50,7 +50,7 @@
     <ClCompile Include="Sector.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CreateFile.cpp">
+    <ClCompile Include="FileManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,6 +1,10 @@
 #include "Sector.h"
-#include <vector>
+#include "vector"
 #include "list"
+#include <String>
+
+#ifndef CLUSTOR_H
+#define CLUSTOR_H
 #pragma once
 class Clustor
 {
@@ -10,6 +14,10 @@ public:
 	Clustor();
 	void eraseAllSectors();
 	void printBlocks();
+	std::string	getClustorBinary();
+	std::string	getNewBinary();
+	void loadClustor(std::string inputBinaryFile);
 	~Clustor();
 };
 
+#endif
