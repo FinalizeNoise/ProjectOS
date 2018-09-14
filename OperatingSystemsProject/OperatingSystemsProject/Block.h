@@ -8,9 +8,11 @@ class Block
 public:
 	static const unsigned char emptyByte = 255;
 	static const int blockSize = sizeof(emptyByte) * 64;
+	unsigned char *A = (unsigned char*)malloc(blockSize * sizeof(emptyByte));
 	Block();
-	void eraseBlock(unsigned char *A);
-	void printBlock(unsigned char *A);
+	void eraseBlock();
+	void printBlock();
+	void writeBlock();
 	~Block();
 };
 
