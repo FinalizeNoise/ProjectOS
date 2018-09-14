@@ -30,6 +30,9 @@
     <ClInclude Include="Sector.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="CreateFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -45,6 +48,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Sector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateFile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

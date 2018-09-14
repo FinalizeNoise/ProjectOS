@@ -145,6 +145,7 @@
   <ItemGroup>
     <ClInclude Include="Block.h" />
     <ClInclude Include="Clustor.h" />
+    <ClInclude Include="CreateFile.h" />
     <ClInclude Include="Sector.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
@@ -152,6 +153,7 @@
   <ItemGroup>
     <ClCompile Include="Block.cpp" />
     <ClCompile Include="Clustor.cpp" />
+    <ClCompile Include="CreateFile.cpp" />
     <ClCompile Include="OperatingSystemsProject.cpp" />
     <ClCompile Include="Sector.cpp" />
     <ClCompile Include="stdafx.cpp">
